@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "buzzer",
+					"strict" : false
+				},
+				{
+					"name" : "pumpSign",
+					"strict" : false
+				},
+				{
+					"name" : "noWaterSoil",
+					"strict" : false
+				},
+				{
+					"name" : "a",
+					"strict" : false
+				},
+				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
+					"name" : "d",
+					"strict" : false
+				},
+				{
+					"name" : "e",
+					"strict" : false
+				},
+				{
+					"name" : "f",
+					"strict" : false
+				},
+				{
+					"name" : "g",
+					"strict" : false
+				},
+				{
+					"name" : "waterSign",
+					"strict" : false
+				},
+				{
+					"name" : "SoilS",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

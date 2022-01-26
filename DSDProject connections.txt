@@ -1,0 +1,18 @@
+phsycal connections :
+
+soil sensor : vcc --> arduino 3.3v 
+              gnd --> arduino gnd
+              D.  --> FPGA GPIO_[35]
+
+buzzer : gnd -->  arduino gnd
+         +   --> 100 ohm resistor -->  FPGA GPIO_[29]
+
+water sensor : + --> arduino 3.3v 
+               - --> arduino gnd
+               s --> arduino A0 'analog input'  then form  arduino 7 --> FPGA Arduino_IO0 'digital output'
+
+water pump : - --> arduino gnd
+             + --> arduino 5 
+             not from FPGA Arduino_IO1 --> arduino 6 'to tell the pump when to work'
+
+

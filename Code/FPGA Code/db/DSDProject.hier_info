@@ -1,0 +1,21 @@
+|DSDProject
+SoilS => process_0.IN0
+SoilS => process_0.IN0
+SoilS => process_0.IN0
+SoilS => process_0.IN0
+waterSign => process_0.IN1
+waterSign => process_0.IN1
+waterSign => process_0.IN1
+waterSign => process_0.IN1
+buzzer <= buzzer$latch.DB_MAX_OUTPUT_PORT_TYPE
+pumpSign <= pumpSign$latch.DB_MAX_OUTPUT_PORT_TYPE
+noWaterSoil <= noWaterSoil$latch.DB_MAX_OUTPUT_PORT_TYPE
+a <= a$latch.DB_MAX_OUTPUT_PORT_TYPE
+b <= <GND>
+c <= c$latch.DB_MAX_OUTPUT_PORT_TYPE
+d <= d$latch.DB_MAX_OUTPUT_PORT_TYPE
+e <= e$latch.DB_MAX_OUTPUT_PORT_TYPE
+f <= f$latch.DB_MAX_OUTPUT_PORT_TYPE
+g <= g$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
